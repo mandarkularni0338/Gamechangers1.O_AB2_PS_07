@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation & Emergency Help</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Nearby Blood Donation Centers</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" defer></script>
+
+
+</head>
+<body>
+    <header>
+       
+    
+        <div class="container">
+            <h1>Save a Life: Blood Donation & Emergency Help</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="donate.html">Donate Blood</a></li>
+                    <li><a href="emergency.html">Emergency Help</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="request_blood.html">Request Blood</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="intro">
+        <div class="container">
+            <h1>Find Nearby Blood Donation Centers</h1>
+         <a href="https://www.bing.com/ck/a?!&&p=b2ea6ac53ad4905b401deb5c42b575e74e37e161445ab35265ce5f3c3e5ad39eJmltdHM9MTc0MDc4NzIwMA&ptn=3&ver=2&hsh=4&fclid=32046b4f-c47c-6873-12ac-7e67c5ce69b7&psq=google+maps&u=a1aHR0cHM6Ly9tYXBzLmdvb2dsZS5jby5pbi8&ntb=1" > <button onclick="findLocation()">Find Nearest Centers</button></a>  
+            <div id="map"></div>
+        </div>
+        <div class="container">
+            <h2>Welcome to the Blood Donation and Emergency Help Site</h2>
+            <p>Your support can save lives. Whether you're looking to donate blood or need emergency help, you're in the right place.</p>
+            <img src="https://media.defense.gov/2015/Jan/09/2001004142/-1/-1/0/150108-F-NJ377-001.JPG" alt="Blood Donation Image" width = "1000">
+        </div>
+    </section>
+    <section class="blogs">
+        <div class="container">
+            <h2>Recent Blog Posts About Blood Donation</h2>
+
+            <!-- Blog 1 -->
+            <div class="blog-post">
+                <h3>Why Blood Donation Is Critical</h3>
+                <p>Blood donation saves millions of lives every year. It’s crucial for surgeries, cancer treatments, and emergency situations. Learn more about the life-saving power of donating blood...</p>
+               <a><button class="read-more" onclick="window.location.href='blog1.html'">Read More</button></a> 
+                
+            </div>
+            <div class="blog-post">
+                <h3>How Often Can You Donate Blood?</h3>
+                <p>If you're considering donating blood, you may wonder how often you can give. Here's what you need to know about the recommended intervals between donations to keep you safe and healthy...</p>
+              <a><button class="read-more" onclick="window.location.href='blog2.html'">Read More</button></a>  
+            </div>
+            <div class="blog-post">
+                <h3>The Science Behind Blood Donation</h3>
+                <p>Did you know your body produces new blood cells quickly after you donate blood? Discover the fascinating science of how your body replenishes blood after a donation...</p>
+               <a><button class="read-more" onclick="window.location.href='blog3.html'">Read More</button></a> 
+            </div>
+            <div class="container">
+                <div class="image-section">
+                    <img src="https://img.favpng.com/17/10/12/blood-donation-logo-blood-bank-png-favpng-VjmcnSqewheyp0jS0girySXpt.jpg" width="300"  alt="Blood Donation Illustration">
+                </div>
+                <div class="form-section>
+                    <div class="input-group">
+                        <label for="blood-group">Blood Group</label>
+                        <div class="input-box">
+                            <span class="icon">🩸</span>
+                            <select id="blood-group">
+                                <option value="AB+">AB+</option>
+                                <option value="A+">A+</option>
+                                <option value="B+">B+</option>
+                                <option value="O+">O+</option>
+                                <option value="A-">A-</option>
+                                <option value="AB-">AB-</option>
+                                <option value="O-">O-</option>
+                                <option value="B-">B-</option>
+                            </select>
+                        </div>
+                    </div>
+        
+                    <div class="input-group">
+                        <label for="city">City</label>
+                        <div class="input-box">
+                            <span class="icon">🏙</span>
+                            <input type="text" id="city" value="Lahore">
+                        </div>
+                    </div>
+        
+                    <button class="search-btn">🔍 Search</button>
+                </div>
+                <div class="container">
+                    <div class="text-content">
+                        <h3>GET INVOLVED</h3>
+                        <h1>Ways to help</h1>
+                        <hr>
+                        <p>
+                            This web is totally based on a blood donation system. It will help the community in providing blood. 
+                            With the help of this web, people can easily find blood according to their requirements. 
+                            It will help the community in saving and serving people.
+                        </p>
+                        <p>
+                            If we talk about our city Lahore, according to a survey we need 30 blood bottles per hour, 
+                            so this web will help in finding blood.
+                        </p>
+                    </div>
+                    <div class="image-content">
+                        <img src="doctors.png" alt="Doctors Illustration">
+                    </div>
+                </div>
+            
+        
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Blood Donation & Emergency Help. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
