@@ -1,0 +1,27 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejas2028/Gamechangers1.O_AB2_PS_07.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tejas2028/Gamechangers1.O_AB2_PS_07/issues"
+  },
+  "homepage": "https://github.com/tejas2028/Gamechangers1.O_AB2_PS_07#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.11.0"
+  }
+}
