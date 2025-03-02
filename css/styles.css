@@ -4,12 +4,20 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FFEBEE; /* Light red background */
+    background-color: #f0415b; /* Light red background */
     color: #333;
+    background-color: #FFEBEE;
+    color: #333;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/007/849/061/large_2x/world-blood-donor-background-free-vector.jpg'); /* Add background image */
+    background-size: cover; /* Ensures image covers the entire page */
+    background-position: center;
+}
+h1{
+    color: black;
 }
 
 h1, h2 {
-    color: rgb(24, 18, 18); /* Dark red for headings */
+    color: rgb(12, 11, 11); /* Dark red for headings */
 }
 
 .container {
@@ -28,7 +36,7 @@ button {
 }
 
 button:hover {
-    background-color: #d62828;
+    background-color: #3196af;
 }
 
 #map {
@@ -42,6 +50,9 @@ header {
     background-color: #B71C1C; /* Dark red for header */
     color: white;
     padding: 20px 0;
+    background-image: url('https://th.bing.com/th/id/R.8f6867627305577ce314669cf6d5e7b5?rik=yU8L%2bb63fAJOKQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f05%2fLight-Pink-Picture.jpg&ehk=su80ah6iQwT%2buno%2f%2bFmMksRFk6RHWwF5vPyg1%2bwgr50%3d&risl=&pid=ImgRaw&r=0'); /* Add background image */
+    background-size: cover; /* Ensures image covers the header */
+    background-position: center;
 }
 
 header h1 {
@@ -78,7 +89,11 @@ section {
 }
 
 section.intro {
-    background-color: #F8BBD0; /* Light pink for intro section */
+    background-color: #F8BBD0;
+    background-image: url('https://img.freepik.com/premium-photo/light-blue-background_926199-17525.jpg'); /* Add background image */
+    background-size: cover; /* Ensures image covers the intro section */
+    background-position: center; 
+    /* Light pink for intro section */
 }
 
 /* Button Styles */
@@ -97,12 +112,87 @@ button:hover {
     background-color: #C2185B;
 }
 
+
 /* Footer Styling */
 footer {
     background-color: #B71C1C;
     color: white;
     padding: 20px 0;
     text-align: center;
+    background-image: url('https://img.freepik.com/free-photo/abstract-red-background-layout-design-web-template-with-smooth-gradient-color_1258-108656.jpg'); /* Add background image */
+    background-size: cover; /* Ensures image covers the footer */
+    background-position: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #e63946;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.blood-request {
+    background: #fff;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    color: #020202;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    margin: 10px 0 5px;
+}
+form input, form select, form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+form button {
+    background: #e63946;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form button:hover {
+    background: #d62828;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
 }
 
 footer p {
